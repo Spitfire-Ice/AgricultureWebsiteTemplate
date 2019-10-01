@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  min-height: 900px;
+  background: url("../img/header-bg.png") no-repeat center;
+  background-size: cover;
+  .logo {
+    width: 200px;
+    height: 200px;
+    background: $color-logo_bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .header__content {
+    color: rgba(242,242,242,1);
+    margin-top: 88px;
+    h2 {
+      font-family: $ovo;
+      font-size: 76px;
+      letter-spacing: 1.9px;
+    }
+    p {
+      max-width: 750px;
+      width: 100%;
+      font-family: $muli;
+      font-size: 25px;
+      line-height: 38px;
+      margin-top: 42px;
+      text-align: justify;
+      font-weight: 300;
+    }
+  }
+}
+

@@ -4,4 +4,16 @@
 @import "buttons";
 @import "@media";
 
+@import "menu";
 @import "header";
+
+
+//Base
+html {
+  background-color: $color-body_bg;
+}
+.wrapper {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

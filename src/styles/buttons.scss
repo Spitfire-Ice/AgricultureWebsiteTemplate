@@ -1,0 +1,13 @@
+.header__content button {
+  width: 263px;
+  height: 72px;
+  color: rgba(242,242,242,1);
+  background: $color-body_red;
+  font-family: $muli;
+  font-size: 31px;
+  text-transform: uppercase;
+  i {
+    opacity: 0.3;
+  }
+  margin: 53px 0;
+}
