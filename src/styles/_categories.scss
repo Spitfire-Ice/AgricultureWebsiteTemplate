@@ -1,0 +1,40 @@
+.categories {
+  margin-top: -150px;
+}
+.categories__wrapper {
+  width: 100%;
+}
+.categories__items {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  .categories__item {
+    width: 360px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 30px 15px;
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+    }
+    h3 {
+      position: relative;
+      z-index: 2;
+      font-family: $ovo;
+      font-size: 61px;
+      color: $color-text_black;
+      text-transform: capitalize;
+      margin-bottom: 40px;
+    }
+  }
+}

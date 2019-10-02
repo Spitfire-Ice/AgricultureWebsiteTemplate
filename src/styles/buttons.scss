@@ -1,4 +1,4 @@
-.header__content button {
+.header__button {
   width: 263px;
   height: 72px;
   color: rgba(242,242,242,1);
@@ -12,9 +12,33 @@
   margin: 53px 0;
   transition: 1s;
 }
-.header__content button:hover {
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-  transform: translateX(-3px) translateY(-3px);
+.header__button:hover {
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.55);
+  transform: translateX(-2px) translateY(-2px);
   transition: 1s;
   cursor: pointer;
+}
+.categories__button {
+  height: 70px;
+  width: 360px;
+  border: 2px solid black;
+  color: $color-text_black;
+  font-family: $muli;
+  font-size: 31px;
+  line-height: 32px;
+  margin-top: 25px;
+  background-color: $color-body_bg;
+  transition: 1s;
+}
+.categories__button:hover {
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.55);
+  transform: translateX(-2px) translateY(-2px);
+  transition: 1s;
+  cursor: pointer;
+}
+.button__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
