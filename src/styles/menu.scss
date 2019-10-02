@@ -1,0 +1,25 @@
+nav, .menu {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background-color: $color-menu_bg;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu ul {
+  display: none;
+}
+.menuButton {
+  margin: 0 25px;
+  cursor: pointer;
+}
+.searchButton {
+  margin: 0 25px;
+  cursor: pointer;
+}
+

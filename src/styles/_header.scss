@@ -3,7 +3,10 @@ header {
   min-height: 900px;
   background: url("../img/header-bg.png") no-repeat center;
   background-size: cover;
+  position: relative;
   .logo {
+    position: relative;
+    z-index: 2;
     width: 200px;
     height: 200px;
     background: $color-logo_bg;
