@@ -36,7 +36,7 @@
   transition: 1s;
   cursor: pointer;
 }
-.categories__button--wrapper {
+.button--wrapper {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -78,3 +78,21 @@
   transition: 1s;
   cursor: pointer;
 }
+.bestsellers--button {
+  width: 358px;
+  height: 69px;
+  background-color: $color-body_bg;
+  border: 2px solid rgba(23,23,23,1);
+  margin: 10px auto;
+  font-family: $muli;
+  font-size: 31px;
+  line-height: 32px;
+  transition: 1s;
+}
+.bestsellers--button:hover {
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.55);
+  transform: translateX(-2px) translateY(-2px);
+  transition: 1s;
+  cursor: pointer;
+}
+
