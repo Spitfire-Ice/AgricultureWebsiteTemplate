@@ -1,0 +1,109 @@
+.specials {
+  width: 100%;
+  padding-top: 100px;
+  overflow: hidden;
+}
+.specials__content {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  min-height: 700px;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .specials__article {
+    position: relative;
+    z-index: 2;
+    min-height: 525px;
+    max-width: 650px;
+    width: 100%;
+    background: url("../img/article-bg-11.png") no-repeat center;
+    background-size: cover;
+    margin: 70px 15px;
+  }
+}
+.specials__article--wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  .specials__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    h3 {
+      font-family: $muli;
+      font-weight: 500;
+      font-size: 49px;
+      color: black;
+      max-width: 488px;
+      width: 100%;
+      margin-top: 70px;
+    }
+    p {
+      font-family: $muli;
+      font-size: 25px;
+      line-height: 38px;
+      color: rgba(55,55,55,1);
+      max-width: 488px;
+      text-align: justify;
+      margin-top: 30px;
+    }
+  }
+}
+.specials__offer {
+  margin-top: 210px;
+  width: 100%;
+  min-height: 700px;
+  background: url("../img/specials-bg-112.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  .offer__content {
+    min-height: 548px;
+    max-width: 945px;
+    width: 100%;
+    background: url("../img/article-bg-12.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    h3 {
+      max-width: 750px;
+      width: 100%;
+      font-family: $muli;
+      font-weight: 500;
+      font-size: 49px;
+      color: black;
+      line-height: 74px;
+      margin-top: 55px;
+    }
+    p {
+      font-family: $muli;
+      font-size: 25px;
+      line-height: 38px;
+      color: rgba(55,55,55,1);
+      text-align: justify;
+      max-width: 750px;
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}
+.offer__wrapper {
+  max-width: 945px;
+  width: 100%;
+  position: relative;
+}
+.offer__content {
+  position: absolute;
+  top: -100px;
+}
