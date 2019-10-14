@@ -8,7 +8,7 @@
     width: 100%;
     text-align: center;
   }
-  p {
+  h3 {
     font-family: $muli;
     font-size: 25px;
     line-height: 38px;
@@ -17,4 +17,7 @@
     margin-top: 25px;
     color: rgba(55,55,55,1);
   }
+}
+.workers__carousel {
+  margin-top: 80px;
 }

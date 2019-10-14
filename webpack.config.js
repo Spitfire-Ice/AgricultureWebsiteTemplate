@@ -115,8 +115,12 @@ module.exports = {
     }),
     // new CopyWebpackPlugin([
     //   { from: 'from/js/lib', to: 'js/lib' }
-    // ])
-
+    // ]),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery',
+    })
 
   ]
 
