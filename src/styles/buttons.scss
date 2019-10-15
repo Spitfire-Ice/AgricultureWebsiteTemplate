@@ -95,4 +95,20 @@
   transition: 1s;
   cursor: pointer;
 }
-
+.feedback--button {
+  width: 358px;
+  height: 69px;
+  background-color: $color-body_bg;
+  border: 2px solid rgba(23,23,23,1);
+  font-family: $muli;
+  font-size: 31px;
+  line-height: 32px;
+  transition: 1s;
+  margin-top: 40px;
+}
+.feedback--button:hover {
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.55);
+  transform: translateX(-2px) translateY(-2px);
+  transition: 1s;
+  cursor: pointer;
+}
