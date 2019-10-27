@@ -112,3 +112,21 @@
   transition: 1s;
   cursor: pointer;
 }
+.banner--button {
+  width: 262px;
+  height: 108px;
+  background: $color-body_red;
+  font-family: $muli;
+  font-weight: 500;
+  font-size: 49px;
+  color: rgba(242,242,242,1);
+  text-transform: uppercase;
+  transition: 1s;
+  margin: 30px;
+}
+.banner--button:hover {
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.55);
+  transform: translateX(-2px) translateY(-2px);
+  transition: 1s;
+  cursor: pointer;
+}

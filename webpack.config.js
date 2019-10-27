@@ -75,6 +75,10 @@ module.exports = {
         ],
       },
       {
+        test: /\.mp4$/,
+        use: 'file-loader?name=videos/[name].[ext]',
+      },
+      {
         test: /\.scss$/,
         use: ExtractSCSS.extract({
           fallback: 'style-loader',
