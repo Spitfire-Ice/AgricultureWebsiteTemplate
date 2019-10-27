@@ -130,3 +130,15 @@
   transition: 1s;
   cursor: pointer;
 }
+.footer--button {
+  width: 360px;
+  height: 72px;
+  font-family: $muli;
+  font-size: 31px;
+  line-height: 32px;
+  color: rgba(242,242,242,1);
+  background: $color-body_red;
+  text-transform: uppercase;
+  transition: 1s;
+  margin: 15px;
+}

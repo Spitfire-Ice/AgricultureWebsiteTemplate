@@ -17,8 +17,10 @@ footer {
 .footer--contacts {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  width: 530px;
 }
 .footer--companyName {
   width: 190px;
@@ -32,12 +34,24 @@ footer {
   margin: 15px;
 }
 .footer--address {
-  width: 190px;
+  width: 205px;
   height: 144px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   h5 {
     font-family: $muli;
     font-size: 25px;
     letter-spacing:2.5px;
-
+    color: rgba(23,23,23,1);
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+  p {
+    font-family: $muli;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(55,55,55,1);
   }
 }
