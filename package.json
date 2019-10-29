@@ -1,7 +1,7 @@
 {
   "name": "agriculture",
   "version": "1.0.0",
-  "description": "AgricultureWebsiteTemplate",
+  "description": "AgricultureWebsiteTemplate(minWidth-375px)",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -49,9 +49,6 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "flickity": "^2.2.1",
-    "jquery": "^3.4.1",
-    "owl.carousel": "^2.3.4",
     "rimraf": "^3.0.0"
   }
 }

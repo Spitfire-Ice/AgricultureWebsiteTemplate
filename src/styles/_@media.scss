@@ -1,12 +1,24 @@
-@media screen and (max-width: 720px) {
-
+@media screen and (max-width:510px) {
+  .categories__item:first-child {
+    margin-top: 200px !important;
+  }
+  html .categories__item {
+    width: 340px !important;
+  }
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width:550px) {
+  .specials__article--wrapper .specials__article h3 {
+    padding: 0 10px !important;
+  }
+  .specials__article--wrapper .specials__article p {
+    padding: 5px !important;
+  }
+  .specials__offer .offer__content h3 {
+    width: 95%!important;
 
+  }
+  .specials__offer .offer__content p {
+    width: 95%!important;
+  }
 }
-@media screen and (max-width: 760px) {
 
-}
-@media screen and (max-width: 458px) {
-
-}

@@ -35,14 +35,15 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
     h3 {
       font-family: $muli;
       font-weight: 500;
       font-size: 49px;
       color: black;
       max-width: 488px;
-      width: 100%;
       margin-top: 70px;
+      position: relative;
     }
     p {
       font-family: $muli;
